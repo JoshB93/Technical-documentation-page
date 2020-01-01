@@ -1,2 +1,2 @@
-# Technical-documentation-page
+A page with info for technical ski drills.
  
