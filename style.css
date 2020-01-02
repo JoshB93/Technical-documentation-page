@@ -232,7 +232,8 @@ nav .link a:hover {
 
     ul li:hover > ul,
     ul li ul:hover,
-    ul li ul:focus {
+    ul li ul:focus,
+    ul li ul:active {
         visibility: visible;
         opacity: 1;
         display: block;
