@@ -145,7 +145,7 @@ nav .link a:hover {
     border: 0;
 }
 
-@media (max-width: 850px) {
+@media (max-width: 650px) {
     nav {
         position: fixed;
         height: 10%;
