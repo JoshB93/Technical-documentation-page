@@ -12,26 +12,26 @@ body {
 nav {
     position: fixed;
     height: 100%;
-    width: 25%;
+    width: 20%;
     border-right: 3px solid #000;
     padding: 0;
-    background-color: red;
+    background-color: gainsboro;
     margin-top: 0;
-    background-color: royalblue;
     z-index: 1;
 }
 
 nav header {
-    font-size: 1.8em;
+    font-size: 4vw;
     font-weight: 600;
-    text-align: center;
-    margin: 12px 0 0 8px;
-    padding: 0;
+    text-align: left;
+    padding: 20px 2px 14px 8px;
+    background-color: rgb(187, 187, 187);
+    
 }
 
 nav ul {
     padding: 0;
-    height: 93%;
+    height: 91%;
     overflow-y: scroll;
     
 }
@@ -44,20 +44,25 @@ nav li {
 nav li a {
     text-decoration: none;
     border-top: 2px solid #000;
-    padding: 12px 8px 8px 10px;
-    margin: 10px 0 10px 0;
+    padding: 20px 8px 20px 8px;
     display: block;
-    font-size: 1.3em;
+    font-size: 2.5vw;
     text-align: left;
     color: #000;
-    
+    }
+
+nav li a:hover {
+    background-color: rgb(35, 133, 163);
+    transition: 0.4s ease-in-out;
+    color: gainsboro;
 }
+
 
 .main-content {
     position: absolute;
-    margin-left: 26%;
-    margin-right: 15px;
-    width: 72%;
+    margin-left: 21.5%;
+    margin-right: 0.5em;
+    width: 77%;
 }
 
 .main-content h1 {
@@ -68,11 +73,13 @@ nav li a {
     padding-left: 1.2em;
 }
 
+
 .resp-container {
     position: relative;
     overflow: hidden;
     padding-top: 56.25%;
     width: 100%;
+    margin: 0.5em 0 0.5em 0;
 }
 
 .resp-iframe {
