@@ -39,9 +39,11 @@ nav header {
 nav ul {
     padding: 0;
     height: 90%;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
+}
 
-    
+nav .big-ul {
+    overflow-y: scroll;
 }
 
 nav li {
@@ -165,7 +167,7 @@ nav .link a:hover {
         border-bottom: 2px solid black;
         padding-right: 1vw;
         margin: 0 auto;
-        display: flex;
+        /* display: flex; */
         background-color: rgb(2, 161, 161);
     }
 
@@ -236,7 +238,7 @@ nav .link a:hover {
         opacity: 0;
         position: absolute;
         transition: all 0.5s ease;
-        margin-top: 80px;
+        top: 80px;
         left: 0;
         display: none;
         clear: both;
