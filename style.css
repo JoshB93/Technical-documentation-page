@@ -167,7 +167,7 @@ nav .link a:hover {
         border-bottom: 2px solid black;
         padding-right: 1vw;
         margin: 0 auto;
-        /* display: flex; */
+        display: flex;
         background-color: rgb(2, 161, 161);
     }
 
@@ -185,6 +185,10 @@ nav .link a:hover {
         
     }
 
+    nav .big-ul {
+        overflow-y: visible;
+    }
+
     nav ul li {
         display: inline-flex;
         position: relative;
@@ -195,6 +199,7 @@ nav .link a:hover {
         height: 100%;
         align-items: center;
     }
+
 
     nav ul li a {
         display: inline-block;
